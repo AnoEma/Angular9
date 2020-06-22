@@ -16,6 +16,7 @@ import {MatListModule} from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { HelpComponent } from './views/help/help.component';
+import { RedDirective } from './directives/red.directive';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { HelpComponent } from './views/help/help.component';
     NavComponent,
     HomeComponent,
     ProductCrudComponent,
-    HelpComponent
+    HelpComponent,
+    RedDirective
   ],
   imports: [
     BrowserModule,
